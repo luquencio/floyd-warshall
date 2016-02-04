@@ -40,7 +40,7 @@ graph = {0 : {1:6, 2:8},
          5 : {2: 7, 3:4}}
 
 distance, predesessor = floydwarshall(graph)
-print "predesessorecesors in shortest path:"
+print "predesessor in shortest path:"
 for v in predesessor: print "%s: %s" % (v, predesessor[v])
 print "Shortest distanceance from each vertex"
 for v in distance: print "%s: %s" % (v, distance[v])
